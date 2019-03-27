@@ -78,16 +78,20 @@
 
 //object methods
 
-let john = {
-    firstName: 'John',
-    lastName: 'Smith',
-    birthYear: 1992,
-    family: ['dog', 'cat'],
-    job: 'teacher',
-    isMarried: false,
-    calcAge: function() {
-        return 2018 - this.birthYear
-    }
-}
+// let john = {
+//     firstName: 'John',
+//     lastName: 'Smith',
+//     birthYear: 1992,
+//     family: ['dog', 'cat'],
+//     job: 'teacher',
+//     isMarried: false,
+//     calcAge: function() {
+//         return 2018 - this.birthYear
+//     }
+// }
 
-console.log(john.calcAge)
+// console.log(john.calcAge)
+
+// for (let i = 0; i < 10; i++) {
+//     console.log(i)
+// }
