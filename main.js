@@ -112,3 +112,9 @@ console.log(starships[0].results)
 // console.log(temparatePlanets)
 
 console.log(planets.filter(a => a["name"] == "Alderaan"))
+console.log(planets.reduce((acc, a) => {
+    if (a.type) {
+        acc.push(a.name.toUpperCase())
+    }
+    return acc
+}))
