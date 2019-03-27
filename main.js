@@ -95,3 +95,20 @@
 // for (let i = 0; i < 10; i++) {
 //     console.log(i)
 // }
+import { planets } from "./planets.js"
+import { starships } from './starships.js'
+console.log(planets[0])
+console.log(starships[0].results)
+
+// const filteredPlanets = (arr, query) => {
+//     return arr.filter(el => el.toLowerCase().indexOf(query))
+// }
+
+// function planetTypes(type) {
+//     return (planet.climate == type)
+// }
+// let temparatePlanets = planets.filter(planetTypes)
+
+// console.log(temparatePlanets)
+
+console.log(planets.filter(a => a["name"] == "Alderaan"))
