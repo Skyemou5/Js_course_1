@@ -1,34 +1,34 @@
 // //ternary operators
 
-// let firstName = 'John'
-// let age = 16
+let firstName = 'John'
+let age = 16
 
-// age >= 18 ? console.log(firstName + ' drinks beer.') : console.log(firstName + 'Drinks juice.');
+age >= 18 ? console.log(firstName + ' drinks beer.') : console.log(firstName + 'Drinks juice.');
 
-// var drink = age >= 18 ? 'beer' : 'juice';
+var drink = age >= 18 ? 'beer' : 'juice';
 
-// //game stuff
-// let game1t1 = 89;
-// let game2t1 = 120;
-// let game3t1 = 103;
+//game stuff
+let game1t1 = 89;
+let game2t1 = 120;
+let game3t1 = 103;
 
-// let game1t2 = 116;
-// let game2t2 = 94;
-// let game3t2 = 123;
+let game1t2 = 116;
+let game2t2 = 94;
+let game3t2 = 123;
 
-// let teamOneAverage = (game1t1 + game2t1 + game3t1) / 3;
-// let teamTwoAverage = (game1t2 + game2t2 + game3t2) / 3;
+let teamOneAverage = (game1t1 + game2t1 + game3t1) / 3;
+let teamTwoAverage = (game1t2 + game2t2 + game3t2) / 3;
 
-// function whoWins() {
-//     if (teamOneAverage > teamTwoAverage) {
-//         console.log("team one wins!")
-//     } else {
-//         console.log("Team two wins!")
-//     }
-//     if (teamOneAverage === teamTwoAverage) {
-//         console.log("It's a tie!")
-//     }
-// }
+function whoWins() {
+    if (teamOneAverage > teamTwoAverage) {
+        console.log("team one wins!")
+    } else {
+        console.log("Team two wins!")
+    }
+    if (teamOneAverage === teamTwoAverage) {
+        console.log("It's a tie!")
+    }
+}
 
 // whoWins()
 
